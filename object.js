@@ -8,6 +8,8 @@ const Dennis = {
         //subtract his DOB year from current year 
     return year - this.DOB;
     },
+    siblings: [],
+    spose: null,
 };
 const ChenZee = {
     firstName: "Chen-Zee",
