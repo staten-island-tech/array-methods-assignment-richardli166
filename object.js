@@ -1,4 +1,4 @@
-let year = date.getFullYear();
+/* let year = date.getFullYear();
 const Dennis = {
     firstName: "Dennis",
     lastName: "Unknown",
@@ -15,4 +15,30 @@ const ChenZee = {
     firstName: "Chen-Zee",
     lastName: "Unknown",
 };
-console.log(Dennis.age)
+console.log(Dennis.age);
+
+let nums = [1, 2, 3, 4, 5];
+let movies = ["Star Wars", "Marvel Things", "Barbie"];
+//access indiviual element from list/array index, starts at 0
+//console.log(nums[0])
+
+console.log(nums[nums[0]]);
+nums.forEach((el) => console.log(el));
+movies.forEach((movie) => console.log(movie));
+nums.forEach(function (el) {
+    console.log(el);
+});
+ */
+
+const Opener = [
+    {
+        Name: "TKI",
+        Dmg: "4",
+    },
+    {
+        Name: "PCO",
+        Dmg: "10+",
+    }
+]
+opener.forEach((opener)=> console.log(opener.Name));
+const 
