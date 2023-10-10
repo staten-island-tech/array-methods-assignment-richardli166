@@ -34,11 +34,21 @@ const Opener = [
     {
         Name: "TKI",
         Dmg: "4",
+        Discoveredby: "TKI",
+        Piece: ["Early I"]
     },
     {
         Name: "PCO",
         Dmg: "10+",
+        Discoveredby: "Placetris community",
+        Piece: ["I hold"]
+    },
+    {
+        Name: "New DT Cannon",
+        Dmg: "12",
+        Discoveredby: "KMGZ",
+        Piece: ["Early L", "Early J", " Early O second bag"],
     }
 ]
-opener.forEach((opener)=> console.log(opener.Name));
-const 
+Opener.forEach((opener)=> console.log(opener.Name));       //outputs name
+console.log (Opener);
