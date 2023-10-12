@@ -50,5 +50,6 @@ const Opener = [
         Piece: ["Early L", "Early J", " Early O second bag"],
     }
 ]
-Opener.forEach((opener)=> console.log(opener.Name));       //outputs name
+Opener.forEach((Opener)=> console.log(Opener.Name));       //outputs name
+Opener.forEach((Opener) => Opener.Piece.forEach(Piece) => console.log((Piece)))
 console.log (Opener);
