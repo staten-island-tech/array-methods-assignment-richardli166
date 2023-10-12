@@ -32,19 +32,19 @@ nums.forEach(function (el) {
 
 const Opener = [
     {
-        Name: "TKI",
+        Name: 'TKI',
         Dmg: "4",
         Discoveredby: "TKI",
         Piece: ["Early I"]
     },
     {
-        Name: "PCO",
+        Name: 'PCO',
         Dmg: "10+",
         Discoveredby: "Placetris community",
         Piece: ["I hold"]
     },
     {
-        Name: "New DT Cannon",
+        Name: 'New DT Cannon',
         Dmg: "12",
         Discoveredby: "KMGZ",
         Piece: ["Early L", "Early J", " Early O second bag"],
