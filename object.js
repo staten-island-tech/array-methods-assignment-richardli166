@@ -51,5 +51,23 @@ const Opener = [
     }
 ]
 Opener.forEach((Names)=> console.log(Names.Name));       //outputs name
-Opener.forEach((block) => block.Piece.forEach((blocks) => console.log(blocks)));
+Opener.forEach((Discoverer) => Discoverer.Discoveredby.forEach((Discoveredby)) => console.log(Discoverer.Discoveredby)));
 
+const opener = Opener.filter((dmg) => dmg.Dmg === "4");
+console.log(opener);
+
+/*
+const DOMSelectors = {
+    form: document.querySelector("form"),
+    firstName: document.querySelector(".firstname"),
+    h2s: document.querySelectorAll("h2"),
+};
+DOMSelectors.form.addEventListener("submit", function(event){
+    event.preventDefault();
+    console.log(DOMSelectors.firstName.value);
+    DOMSelectors.h2s.forEach(
+        (element)=> element.textContent = DOMSelectors.firstName.value
+        );
+});
+console.log(DOMSelectors.h2s);
+*/
